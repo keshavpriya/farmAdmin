@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="a422622f-49ca-42aa-a0b7-21896d4f9c2a" name="New changelist" comment="" />
-    <list default="true" id="998c56ec-75d5-4b20-a030-0eed607d52e9" name="Default" comment="" />
+    <list default="true" id="ff9f0539-6f06-4352-964e-a6fbb021de3d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +16,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../formAdmin/farmAdmin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -68,8 +69,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="forAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="farmAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="farmAdmin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,11 +132,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539530655987</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first Commit">
+      <created>1539535976043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539535976043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5740000" />
+    <option name="totallyTimeSpent" value="5873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -171,7 +179,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="formAdmin Branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="formAdmin Branch" />
+    <MESSAGE value="first Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
