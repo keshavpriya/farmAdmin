@@ -3,16 +3,16 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { AdduserComponent } from './adduser/adduser.component';
+import {UserModule} from "./user/user.module";
 
 
 @NgModule({
   declarations: [
-    AppComponent,
-    AdduserComponent
+    AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+     UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
