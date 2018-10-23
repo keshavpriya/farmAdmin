@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import {UserModule} from "./user/user.module";
+//import {UserModule} from "./user/user.module";
 import { HeaderComponent } from './layout/header/header.component';
 import { LeftSidebarComponent } from './layout/left-sidebar/left-sidebar.component';
 import { FooterComponent } from './layout/footer/footer.component';
+import { HomeComponent } from './front/home/home.component';
+import { AboutComponent } from './front/about/about.component';
+import {AppRouting} from "./app.routing";
+import {UserModule} from "./user/user.module";
+
 
 
 @NgModule({
@@ -14,11 +19,14 @@ import { FooterComponent } from './layout/footer/footer.component';
     AppComponent,
     HeaderComponent,
     LeftSidebarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
-     UserModule
+     UserModule,
+    AppRouting
   ],
   providers: [],
   bootstrap: [AppComponent]
